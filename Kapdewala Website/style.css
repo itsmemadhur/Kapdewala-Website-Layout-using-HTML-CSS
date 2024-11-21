@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 0 auto;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+
+h2,p {
+    text-align: center;
+    font-size: large;
+
+}
+.box{
+    align-items: center;
+    align-content: center;
+}
+
+/* footer code  */
+
+body {
+    font-family: Arial, sans-serif;
+}
+.footer {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer h1 {
+        
+        background-color:#000;
+        color: white ;
+        /* margin: px;
+        padding: 10px; */
+
+
+        span{
+            color: rgb(50, 240, 237);
+        }
+    
+    background-color: black;
+
+    margin-bottom: 20px;
+}
+.footer h2 {
+    /* background-color: black; */
+
+    margin-bottom: 20px;
+}
+.footer .categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer .categories div {
+    text-align: center;
+}
+.footer .categories div img {
+    width: 50px;
+    height: 50px;
+}
+.footer .columns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.footer .column {
+    text-align: left;
+    margin-top: 20px;
+}
+.footer .column h3 {
+    color: red;
+}
+.footer .column ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer .column ul li {
+    margin-bottom: 10px;
+}
+.footer .help-center {
+    margin-top: 20px;
+}
+.footer .help-center button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
